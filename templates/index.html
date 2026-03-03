@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotion Detector</title>
+    <script src="{{ url_for('static', filename='mywebscript.js') }}"></script>
+</head>
+<body>
+    <h1>Emotion Detector</h1>
+    <p>Type a statement and detect the dominant emotion.</p>
+    <input type="text" id="textToAnalyze" size="60" placeholder="Type your text here">
+    <button type="button" onclick="RunSentimentAnalysis()">Analyze</button>
+    <div id="system_response"></div>
+</body>
+</html>
+
